@@ -1,0 +1,144 @@
+/* Reset */
+body, h1, p, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Latar belakang gradien */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Container utama */
+.container {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    color: #333;
+}
+
+/* Judul */
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4e54c8;
+}
+
+/* Deskripsi */
+.container p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Formulir */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label */
+form label {
+    font-size: 0.9rem;
+    color: #555;
+    text-align: left;
+}
+
+/* Input */
+form input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+/* Fokus pada input */
+form input:focus {
+    border-color: #4e54c8;
+    outline: none;
+}
+
+/* Tombol */
+form button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #4e54c8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Tombol hover */
+form button:hover {
+    background: #8f94fb;
+}
+
+/* Bagian hasil */
+#result {
+    margin-top: 20px;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+#result h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #4e54c8;
+}
+
+#predicted-numbers {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8f94fb;
+}
+/* Tombol Reset */
+#reset-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Hover efek untuk tombol Reset */
+#reset-button:hover {
+    background: #e53935;
+}
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ff0000;
+    opacity: 0.8;
+    background: transparent;
+    
+}
+
+.footer p {
+    margin: 10px 0;
+}
